@@ -73,3 +73,6 @@ To request usage approval, licensing, or collaboration:
 
 **© 2025 The creator of this repository.  
 Private use permitted. Public/commercial use prohibited without permission.**
+<p align="center">
+  <img src="Logo.jpg" alt="OMA Logo" width="300"/> 
+</p>
