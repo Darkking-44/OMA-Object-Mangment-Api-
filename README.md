@@ -1,73 +1,75 @@
 # OMA – Object Management API
-
-**Version:** 1.0  
+**Version:** 1.0 (Early Development)  
 **Owner:** The creator of this GitHub repository  
-**Status:** Early Development  
-**License:** Proprietary – Permission Required  
+**License:** Proprietary – **Private Use Allowed**, Public/Commercial Use Requires Permission
 
 ---
 
 ## Overview
-
-OMA (Object Management API) is a private Java framework created and owned by the repository author.  
-It provides a secure, key-based system for managing data objects and structured object groups.  
-This project is currently in early development and is not open-source.
+OMA (Object Management API) is a private Java-based framework designed for structured object management, grouped relationships, and secure value-handling systems.  
+This project is currently in early development and **is not open-source**, but **private use is allowed**.
 
 ---
 
 ## Usage Terms
 
-OMA is not licensed for public, commercial, or redistributed use.  
-All rights to this code, its design, and its concept remain the exclusive property of the repository owner.
+### ✅ You ARE allowed to:
+- Download, view, and study the source code.
+- Use OMA **privately on your own device**.
+- Modify the code **privately** for learning, research, hobby, or educational experimentation.
 
-### You may:
-- View and study the source code on GitHub.  
-- Test it privately for personal learning or non-commercial experimentation.  
+### ❌ You are NOT allowed to:
+- Use OMA in **public** projects (including GitHub, school submissions, or shared environments).
+- Use OMA for **commercial** or **organizational** purposes.
+- Distribute, fork, upload, or mirror this project.
+- Rebrand, rename, or claim ownership of any part of the code.
+- Sell or include the code in other software.
 
-### You may NOT:
-- Use OMA or any part of it in your own public or private projects.  
-- Distribute, modify, publish, or sell any code from this repository.  
-- Re-upload or fork it under another name or account.  
-- Claim ownership or rebrand any portion of it.  
+---
 
-### Permission Requirement
-Any other form of use — including public demonstrations, academic references, or commercial purposes —  
-is strictly prohibited unless the repository owner grants explicit written permission.  
+## Permission Requirement
+If you want to use OMA in **any way that is not strictly private**, including:
 
-In short:  
-You must contact the repository owner and receive explicit approval before any further use.
+- Public repositories
+- Team or classroom projects
+- Game or application integration
+- Commercial or company internal use
+- Server deployments or hosted environments
+
+You **must first contact the repository owner and receive explicit written approval**.
 
 ---
 
 ## Liability Disclaimer
+This software is provided **“as is”**, without any warranty of any kind, including but not limited to:
 
-This software is provided “as is” without warranty of any kind, express or implied, including but not limited to:
-- fitness for a particular purpose,  
-- reliability, performance, or data safety,  
-- or non-infringement of third-party rights.
+- Performance
+- Reliability
+- Fitness for any purpose
+- Safety of data or systems
 
-By viewing, copying, or testing this code, you agree that:
-- The repository owner shall not be held liable for any damage, loss of data, or other consequences resulting from the use or misuse of this software.  
-- All use is entirely at your own risk.
+The owner is **not liable** for any damages or consequences resulting from use or misuse.  
+Use at **your own risk**.
 
 ---
 
-## Ownership & Future Licensing
+## Ownership & Licensing Rights
+All source code, design logic, naming, and conceptual structures are the **intellectual property** of the repository owner.
 
-OMA and all related source code, ideas, and naming are the intellectual property of the repository owner.  
 The owner reserves the right to:
-- modify, restrict, or revoke access to this project at any time,  
-- introduce new licensing terms, including commercial or limited-access models.
+- Change or restrict access at any time
+- Modify or extend licensing terms in the future
+- Offer paid licenses, subscription usage, or enterprise agreements
 
-No rights are transferred or implied unless explicit written consent is granted by the repository owner.
-
----
-
-## Contact for Permission
-
-If you wish to use OMA for any purpose beyond private testing, please contact the repository owner directly through GitHub.
+No license rights are granted unless explicitly provided in writing.
 
 ---
 
-© 2025 The creator and owner of this GitHub repository.  
-Unauthorized use, modification, or redistribution of this software is strictly prohibited.
+## Contact
+To request usage approval, licensing, or collaboration:
+**Contact the repository owner directly through GitHub.**
+
+---
+
+**© 2025 The creator of this repository.  
+Private use permitted. Public/commercial use prohibited without permission.**
