@@ -74,5 +74,5 @@ To request usage approval, licensing, or collaboration:
 **© 2025 The creator of this repository.  
 Private use permitted. Public/commercial use prohibited without permission.**
 <p align="center">
-  <img src="Logo.jpg" alt="OMA Logo - Object Management API" width="50%"/> 
+  <img src="Logo.jpg" alt="OMA Logo - Object Management API" width="150%"/> 
 </p>
