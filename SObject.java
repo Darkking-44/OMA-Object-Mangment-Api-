@@ -5,38 +5,53 @@
 public class SObject {
 
     /** The value stored in this object. */
-    private String objektValue;
+    private String objectValue;
 
     /** Unique object ID assigned by the system. */
     private String preId;
 
     /** Optional group-based identifier (e.g. "2.3"). */
     private String postId;
+    /** compress true to apply GZIP compression to objectValue, false to store it as-is */
+    private Boolean compress;
 
     /**
      * Constructs a new object with the specified value.
      *
-     * @param objektValue the initial value to store
+     * @param objectValue the initial value to store
+     * @param compress true to apply GZIP compression to objectValue, false to store it as-is
      */
-    public SObject(String objektValue) {
-        this.objektValue = objektValue;
+    public SObject(String objectValue,Boolean compress) {
+        this.compress = compress;
+        if(!this.compress) {
+            this.objectValue = objectValue;
+        } else {
+            this.objectValue = Compressor.stringToGzip(objectValue);
+        }
         this.preId = ObjectNameSystem.registerNewId("object");
     }
-
+    //Constructs with compress = false
+    public SObject(String objectValue) {
+        this(objectValue,false);
+    }
     /**
      * Constructs a default object with value "No Value!".
      */
     public SObject() {
-        this("No Value!");
+        this("No Value!",false);
     }
 
     /**
      * Updates the stored value.
      *
-     * @param objektValue the new value to store
+     * @param objectValue the new value to store
      */
-    public void setObjektValue(String objektValue) {
-        this.objektValue = objektValue;
+    public void setObjectValue(String objectValue) {
+        if(!this.compress) {
+            this.objectValue = objectValue;
+        } else {
+            this.objectValue = Compressor.stringToGzip(objectValue);
+        }
     }
 
     /**
@@ -44,8 +59,12 @@ public class SObject {
      *
      * @return the object's value
      */
-    public String getObjektValue() {
-        return this.objektValue;
+    public String getObjectValue() {
+        if(!this.compress) {
+            return this.objectValue;
+        } else {
+            return Compressor.gzipToString(objectValue);
+        }
     }
 
     /**

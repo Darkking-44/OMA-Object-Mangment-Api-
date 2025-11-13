@@ -3,12 +3,12 @@
  */
 public class Example {
     public static void main(String[] args) {
-        // Create LSSObject instances with fixed keys and values
-        LSSObject obj1 = new LSSObject("keyA", "Alpha");
-        LSSObject obj2 = new LSSObject("keyB", "Bravo");
-        LSSObject obj3 = new LSSObject("keyC", "Charlie");
-        LSSObject obj4 = new LSSObject("keyD", "Delta");
-        LSSObject obj5 = new LSSObject("keyE", "Echo");
+        // Create LSSObject instances with fixed keys and values and compress
+        LSSObject obj1 = new LSSObject("keyA", "Alpha",false);
+        LSSObject obj2 = new LSSObject("keyB", "Bravo",true);
+        LSSObject obj3 = new LSSObject("keyC", "Charlie",true);
+        LSSObject obj4 = new LSSObject("keyD", "Delta",true);
+        LSSObject obj5 = new LSSObject("keyE", "Echo",false);
 
         // Group them into arrays
         LSSObject[] group1 = { obj1, obj2, obj3 };
